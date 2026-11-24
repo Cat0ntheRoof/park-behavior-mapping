@@ -246,6 +246,11 @@ def main(keep_ink=True, out_name="figure.png"):
                "绿带为路段；数字框为该路段的人-性别-停留汇总。"]):
         dr.text((X, y), s, font=f_tb, fill=(120, 100, 70)); y += 22
 
+    un = [b for b in d["boxes"] if not str(b.get("note", "")).strip()]
+    if un:
+        dr.text((X, y), "未读数：" + "、".join(f"#{b['id']}({b.get('seg') or '未挂'})" for b in un) + "，未计入合计",
+                font=f_tb, fill=(190, 60, 60)); y += 22
+
     if CSV_OUT:
         with open(CSV_OUT, "w", newline="", encoding="utf-8-sig") as f:
             w = csv.writer(f)
