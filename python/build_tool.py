@@ -140,7 +140,7 @@ HTML = r"""<!DOCTYPE html>
         <button id="rcNext">下一个 →</button>
         <button id="rcExit" style="margin-left:auto">退出</button>
       </div>
-      <div class="rcKeys">1步行 2跑步 3骑行 4坐憩 5社交 6亲子 7锻炼 8遛狗 9野餐 10手机 11拍照 12文化 13其他</div>
+      <div class="rcKeys">A1步行/散步 A2跑步 A3骑行/轮滑 A4坐憩/休息 A5社交 A6亲子 A7锻炼 A8遛狗<br>A9野餐/饮食 A10手机/阅读 A11拍照/观景 A12文化 A13其他</div>
     </div>
   </div>
   <div id="panel">
