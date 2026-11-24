@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+ocr/
+*.egg-info/
+.DS_Store
+demo/tool.html
+demo/out/
+
+# 真实调研数据不要提交
+标注结果*.json
+标注结果*.csv
+suggestions.json
+suggestions.csv
+stats*.csv
+figure*.png

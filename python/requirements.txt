@@ -1,0 +1,5 @@
+numpy>=1.24
+opencv-python>=4.8
+pillow>=10.0
+# OCR 引擎单独安装（体积较大）：
+#   pip install --target ./ocr rapidocr-onnxruntime

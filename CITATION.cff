@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "若使用本方法或工具，请引用以下条目。"
+title: "Park Behavior Mapping: 手绘行为注记图的分段统计工具"
+abstract: >-
+  面向风景园林专业的公园人群行为观察工具。将手绘平面图上的
+  「人数-性别-活动」注记转换为结构化数据，按路段汇总人数、
+  性别构成与停留特征，并输出统计图与数据表。
+authors:
+  - family-names: "Sytsi"
+    given-names: "Hon"
+    affiliation: "Landscape Architecture"
+    note: "标注方法（三编码体系与分段统计口径）提出者"
+  - family-names: "Cat0ntheRoof"
+    note: "工具实现"
+type: software
+license: MIT
+repository-code: "https://github.com/Cat0ntheRoof/park-behavior-mapping"
+keywords:
+  - landscape architecture
+  - behavior mapping
+  - post-occupancy evaluation
+  - park
+  - annotation
+version: 0.1.0
+date-released: "2026-11-24"
